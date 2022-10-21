@@ -1,9 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View ,SafeAreaView} from 'react-native';
-import { Component } from 'react';
+import { StyleSheet, View } from 'react-native';
 import Chessfunction from './Component/Chessfunction';
+
 export default function App() {
   return (
+<View style={{flex:1, alignItems:'center',alignContent:'center'}}>
+<Chessfunction></Chessfunction>
+</View>
 
-    <Chessfunction></Chessfunction>
+
   );}
+;
